@@ -1,0 +1,32 @@
+body {
+
+  
+  background-color: rgb(74, 74, 231);
+  font-size:15px;
+  
+
+}
+
+
+
+.title {
+ 
+  color: rgb(241, 68, 155);
+}
+
+.job-title {
+  
+  color: darkgoldenrod;
+  background-color: rgb(15, 15, 15);
+}
+#high {
+
+color: rgb(32, 132, 226);
+}
+
+
+
+footer {
+
+  background-color: rgb(132, 150, 54);
+}
