@@ -1,0 +1,32 @@
+vermelho ( Rojo);
+azul ( Azul);
+preto ( Negro);
+e verdes ( Verde).
+
+program {
+  Sacar(Azul)
+  Sacar(Rojo)
+  Sacar(Negro)
+  Sacar(Verde)
+  
+}
+
+program {
+  Sacar(Rojo)
+  Poner(Verde) 
+  Mover(Norte)
+  Sacar(Rojo)
+  Poner(Verde)
+  Mover(Este)
+  Sacar(Rojo)
+  Poner(Verde)
+  Mover(Sur)
+  Sacar(Rojo)
+  Poner(Verde)
+  Mover(Oeste)
+
+  
+
+
+
+  }
