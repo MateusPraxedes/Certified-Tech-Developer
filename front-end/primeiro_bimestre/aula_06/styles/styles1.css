@@ -17,7 +17,9 @@ h1{
   
   width: 100%;
   height: 400px;
-  background-image: url('https://lh3.googleusercontent.com/proxy/1AA1Mt2rsOJoX-uvVZL5IIKpZlKs8a_EtKvpK5MkzbUvbFIySdCKsTYmpbC-mB4VlZQQbNsMDYDegw1LiyNiBmkSTJDs9i21CkSuCnJxSfBZDJGxImZHe5f1Fveuz4mAFPcayDoKRPbXdc1en8MaHaOtGSlkvIS_H3k');
+  background-image: url('https://s2.glbimg.com/2C0hMRuCY_7NfDPjby4_Bjmq8Nc=/e.glbimg.com/og/ed/f/original/2018/03/22/avengers-infinity-war-official-poster-2018-4o.jpg');
+  background-size: cover;
+  background-position: top;
 }
 .review-score{
 
