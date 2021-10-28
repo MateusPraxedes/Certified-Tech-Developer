@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Material+Icons%7CMaterial+Icons+Outlined%7CMaterial+Icons+Two+Tone%7CMaterial+Icons+Round%7CMaterial+Icons+Sharp%27');
+article {
+
+  background-image: url('https://dicasnewyork.com.br/wp-content/uploads/2018/09/ProspectParkemNovaYork.jpg');
+  background-repeat: no-repeat;
+  background-size: cover; 
+  background-position: center;
+  height: 200px;
+
+}
+h1, p{
+
+  font-family: 'Roboto', sans-serif;
+
+  text-align: center;
+}
