@@ -1,0 +1,38 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+div{
+  width: 300px;
+  background: salmon;
+  padding: 24px;
+  box-sizing: border-box;
+  
+}
+
+h1{
+  
+  padding-bottom: 32px;
+}
+p{
+  
+  background-color: green;
+  margin: 24px;
+
+
+}
+
+a{
+
+  background-color: red;
+}
+
+button{
+
+  border: 5px red groove;
+  border-radius: 52px;
+}
+
