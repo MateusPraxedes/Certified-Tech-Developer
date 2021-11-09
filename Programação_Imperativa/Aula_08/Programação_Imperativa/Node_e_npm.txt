@@ -1,0 +1,11 @@
+npm init                        INICIALIZAR
+npm Install PACKAGE --save      INST BIBLIOTECAS
+npm update                      ATUALIZAR BIBLIOTECAS
+npm uninstall PACKAGE           REMOVENDO BIBLIOTECAS
+
+			   Variáveis 
+			 [var] = global 
+                 [let] = local
+                 [const] = constante
+
+  
