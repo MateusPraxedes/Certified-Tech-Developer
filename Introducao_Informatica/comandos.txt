@@ -1,0 +1,28 @@
+ls
+dir
+cls
+clear
+cd desktop    cd-change directory
+cd .. voltar
+change directory
+pdw
+mkdir pasta
+rmdir  apagar
+directory- pasta
+mv   mover renomear
+Base unix ou ddos
+touch nome extensão
+ls -r para abrir as pastas
+git clone
+git pull origin main
+git commit
+git log verificar alterações
+git pull origin main atualizar ultima versão
+git push
+git branch nomebranch
+git checkout -b nomedabranch  
+git branch Mateus_Praxedes
+git push --set-upstream origin Mateus_Praxedes
+git remote add origin
+
+

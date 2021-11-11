@@ -1,0 +1,13 @@
+Pasta Git_e_Github_Mateus_Praxedes
+
+Historia_Github_Mateus_Praxedes.txt
+
+a.Quem inventou o sistema de controle de versão Git e por quê?
+
+Por definição, o Git é um Sistema de Controle de Versão Distribuído. Ele foi criado por Linus Torvalds, que é mais conhecido por outra criação sua, o Linux. Linus desenvolveu o Git após ter ficado insatisfeito com uma mudança de licença de utilização do BitKeeper, o sistema de controle de versão que era utilizado por ele e pela equipe que desenvolvia o Linux. Como na época não existia nada similar, ele resolveu criar a sua própria versão de um sistema para controlar as alterações do projeto Linux. E foi aí que surgiu o Git. Como um bom sistema de controle de versão, o Git registra as mudanças que ocorrem no código-fonte de um projeto. Logo, permite que os arquivos sejam alterados de forma simultânea, por inúmeras pessoas, sem a preocupação que essas alterações sejam sobrescritas umas pelas outras. Devido a essa funcionalidade, caso haja algum problema em uma alteração do código-fonte, é possível restaurar à versão anterior de forma fácil e rápida. Uma tecnologia como essa é essencial para equipes que estejam trabalhando em um mesmo projeto. Afinal, ele simplifica o controle de operações realizadas por inúmeras pessoas.
+https://www.hostgator.com.br/blog/git-o-sistema-de-controle/
+
+Quem atualmente é o dono do Github e por quê?
+
+Microsoft é a atual dona do github, devido
+

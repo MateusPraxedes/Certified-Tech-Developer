@@ -1,0 +1,17 @@
+Endereço IP público  179.187.68.175
+Endereço IP privado 192.168.4.101
+Máscara de rede 255.255.255.0
+Endereço MAC
+32-52-CB-82-EA-25
+32-52-CB-82-E2-25
+30-52-CB-82-EA-25
+30-52-CB-82-EA-26
+
+
+Os IPs público e privado pertencem à qual classe de rede?
+Público classe A e B
+Privado Classe C
+
+Que informações podemos obter do nosso endereço MAC?
+32-52-CB-82-E2-25
+Liteon Technology Corporation

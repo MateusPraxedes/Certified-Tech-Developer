@@ -1,0 +1,16 @@
+git config --global user.name / git config --global user.email
+git config --global core.editor 
+
+git config --global -l // listar as configurações
+
+git status 
+git add
+git add . // all
+git commit -m
+git commit -am // add + -m
+git log // background      /// tecla q para sair do log
+
+git checkout (codigo do log)
+git checkout master // voltar para historico completo
+
+
