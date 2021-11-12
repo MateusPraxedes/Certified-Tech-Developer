@@ -1,0 +1,29 @@
+* {
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+body {
+
+  background-color: purple;
+  height: 500px;
+}
+
+.logo {
+ background-image: url('https://wallpaperaccess.com/full/805686.jpg');
+  background-repeat: no-repeat;
+  background-size: cover; 
+  background-position: center;
+  height: 200px;
+ 
+  }
+
+  .logo h1{
+
+    color: white;
+    text-align: center;
+    padding-top: 150px;
+  }
