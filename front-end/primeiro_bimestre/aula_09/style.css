@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css?family=Material+Icons%7CMaterial+Icons+Outlined%7CMaterial+Icons+Two+Tone%7CMaterial+Icons+Round%7CMaterial+Icons+Sharp%27');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+* {
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+body {
+
+  background-color: black;
+  height: 1200px;
+  
+}
+
+.menu {
+
+  width: 100%;
+  background-color: #18181a96;
+  padding: 18px;
+  position: fixed;
+  text-align: center;
+
+}
+
+.menu span{
+  color: white;
+  
+  
+  
+}
+
+.menu a {
+  
+  color: white;
+  margin: 13px;
+  font-size: 25px;
+  text-decoration: none;
+  font-weight: bolder;
+
+}
+
+
+
+
+.banner {
+  background-image: url('http://static1.squarespace.com/static/5663c205e4b0672d144c6799/5668534f04acd3f30411b004/5e0437d97645b07c062dcaf1/1626573390724/unsplash-image-NIJuEQw0RKg.jpg?format=1500w');
+  background-repeat: no-repeat;
+  background-size: cover; 
+  background-position: center;
+  height: 250px;
+  
+  
+}
+
+.banner h1{
+  color: white;
+  font-size: 25px;
+  padding: 100px;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+.books {
+
+  margin-top: 70px;
+  text-align: center;
+  
+}
+
+.books img {
+
+  width: 280px;
+  height: 300px;
+  padding: 25px;
+  border-radius: 25%;
+  
+}
+
+.buttons {
+
+  text-align: center;
+  
+}
+
+.buttons button {
+
+  height: 50px;
+  margin: 0 90px;
+  background-color: rgb(6, 6, 15);
+  border-radius: 15px;
+  padding: 0 13px;
+  
+}
+
+.buttons button a {
+
+  color: rgba(231, 228, 228, 0.952);
+  font-weight: bolder;
+  text-decoration: none;
+  
+}
+.chat {
+  color: purple;
+  position: fixed;
+  right: 50px;
+  bottom: 50px;
+  
+}
+
+.chat span {
+
+  width: 70px;
+  font-size: 40px;
+      
+}
