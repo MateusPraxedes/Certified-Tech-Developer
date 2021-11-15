@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Praise&display=swap');
 *{
 
   margin: 0;
@@ -10,21 +10,57 @@
 
 body{
 
-  background-image: url('https://c4.wallpaperflare.com/wallpaper/274/167/705/skyscraper-south-america-pinheiros-river-brazil-wallpaper-preview.jpg');
+  background-image: url('https://images.alphacoders.com/581/thumb-1920-581842.jpg');
   background-repeat: no-repeat;
   background-size: cover; 
-  height: 400px;
+  height: 1200px;
+  width: 100%;
+  font-weight: bolder;
+  
 
 }
 
 header{
+  color: black;
   font-size: 40px;
+  font-weight: bolder;
   text-align: center;
   padding: 20px;
+  font-family: 'Praise', cursive;
   
+}
+main{
+  text-align: center;
+  display: block;
 }
 
 main p{
-
+  color: white;
   text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+main iframe {
+
+  width: 1280px;
+  height: 720px;
+  padding: 60px;
+ 
+  
+}
+
+main h2 {
+
+  color: yellow;
+  font-weight: bolder;
+  padding: 20px;
+  font-family: 'Roboto', sans-serif;
+}
+
+main ul{
+
+  color: white;
+  line-height: 30px;
+  
+  
 }
