@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/aula_11/style/style1.css">
+  <title>Document</title>
+</head>
+
+<body>
+
+  <main>
+
+    <form>
+
+      <h1>Cadastro de Usuário</h1>
+      <fieldset>
+        
+        <legend>Dados Pessoais</legend>
+        
+        <div>
+
+          <label for="username">Nome do Usuário</label>
+          <input type="text" name="username" id="username">
+        </div>
+         <div>
+  
+          <label for="birthdate">Data de Nascimento</label>
+          <input type="date" name="birthdate" id="birthdate" >
+          
+         </div>
+        <div>
+          <label for="userEmail">E-mail</label>
+          <input type="email" name="userEmail" id="userEmail">
+        </div>
+  
+        <div>
+  
+          <label for="userpassword">Senha</label>
+          <input type="password" name="userpassword" id="userpassword">
+  
+        </div>
+  
+        <div>
+  
+          <label for="userDescription">Depoimento</label>
+          <textarea name="userDescription" id="userDescription"></textarea>
+        </div>
+      </fieldset>
+      
+      <div>
+
+        <label for="userPlan">Plano</label>
+        <select name="userPlan" id="userPlan">
+
+          <option value="1">Básico</option>
+          <option value="2">Médio</option>
+          <option value="3">Premium</option>
+        </select>
+
+        <div>
+
+          <h1>Pagamento</h1>
+          
+          <input type="radio" name="payment" id="credit" checked>
+          <label for="credit">Crédito</label>
+          
+          <input type="radio" name="payment" id="debit">
+          <label for="debit">Débito</label>
+          
+          <input type="radio" name="payment" id="bill">
+          <label for="bill">Boleto</label>
+          
+            
+        </div>
+          
+        <h1>Entrega</h1>
+
+        <input type="radio" name="tax" id="empresax" checked>
+        <label for="empresax">Empresa Z</label>
+
+        <input type="radio" name="tax" id="empresay">
+        <label for="empresay">Empresa Y</label>
+
+        <input type="radio" name="tax" id="empresaz">
+        <label for="empresaz">Empresa Z</label>
+         
+        </div>
+
+        <div>
+
+          <label for="sheduleDelivery">Agenda entrega</label>
+        <input type="date" name="sheduleDelivery" id="sheduleDelivery"min = "2021-11-16" max="2021-12-16">
+        
+       </div>
+
+        <div>
+
+          <h1>Recomendados</h1>
+
+          <input type="checkbox" name="recommended" id="firstProduct">
+          <label for="firstProduct">Carregador</label>
+
+          <input type="checkbox" name="recommended" id="secondProduct">
+          <label for="secondProduct">Fone</label>
+          
+        </div>
+
+      <button type="reset">Limpar</button>
+      <button type="submit">Cadastrar</button>
+
+      
+
+
+    </form>
+
+
+
+  </main>
+
+</body>
+
+</html>

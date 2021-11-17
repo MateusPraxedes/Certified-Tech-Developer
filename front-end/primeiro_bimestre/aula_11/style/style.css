@@ -1,0 +1,35 @@
+* {
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+body {
+  background-color: black;
+  background-image: url('https://www.confeitariadama.com.br/wp-content/uploads/2021/04/mobile-confeitaria-dama-banner-emporio.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  font-weight: bolder;
+  width: 300px;
+  margin: 0 auto;
+}
+form h1{
+
+  padding: 15px;
+}
+
+fieldset{
+  
+  border: none;
+  margin-bottom: 24px;
+
+}
+
+legend {
+
+  font-size: 20px;
+  margin-bottom: 10px;
+}

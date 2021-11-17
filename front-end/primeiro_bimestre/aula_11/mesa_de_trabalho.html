@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/aula_11/style/style.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <main>
+    <form>
+      <h1>Pedido</h1>
+      <fieldset>
+
+        <legend>Dados de entrega</legend>
+
+        <div>
+
+          <label for="name">Nome:</label>
+          <input type="text" name="name" id="name">
+        </div>
+
+        <div>
+
+          <label for="address">Endereço</label>
+          <input type="tel" name="address" id="address">
+
+        </div>
+
+        <div>
+
+          <label for="phone">Telefone</label>
+          <input type="text" name="phone" id="phone">
+
+        </div>
+
+
+        <div>
+
+          <label for="userEmail">E-mail:</label>
+          <input type="email" name="userEmail" id="userEmail">
+
+        </div>
+
+      </fieldset>
+
+
+      <fieldset>
+
+        <legend>Doces</legend>
+
+
+
+        <div>
+
+
+          <input type="checkbox" name="recommended" id="firstProduct">
+          <label for="firstSweet">Brigadeiro</label>
+        </div>
+
+        <div>
+
+
+          <input type="checkbox" name="recommended" id="secondSweet">
+          <label for="secondSweet">Beijinho</label>
+        </div>
+        <div>
+
+
+          <input type="checkbox" name="recommended" id="thirdSweet">
+          <label for="thirdSweet">Brownie</label>
+        </div>
+        <div>
+
+
+          <input type="checkbox" name="recommended" id="fourthSweet">
+          <label for="fourthSweet">Bolo de pote</label>
+        </div>
+      </fieldset>
+
+      <fieldset>
+
+        <legend>Pagamento</legend>
+
+        <input type="radio" name="payment" id="credit" checked>
+        <label for="credit">Crédito</label>
+
+        <input type="radio" name="payment" id="debit">
+        <label for="debit">Débito</label>
+
+        <input type="radio" name="payment" id="bill">
+        <label for="bill">Boleto</label>
+
+      </fieldset>
+
+      <button type="reset">Limpar</button>
+      <button type="submit">Enviar</button>
+
+
+    </form>
+
+
+
+
+
+
+
+
+  </main>
+</body>
+
+</html>
