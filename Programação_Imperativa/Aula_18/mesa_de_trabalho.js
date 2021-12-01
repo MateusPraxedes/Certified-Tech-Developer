@@ -121,5 +121,5 @@ let arrayHandler = (array1, array2) => {
   return '';
 }
 
-console.log(arrayHandler([1,2,3], ['o','l','á']));
+
 
