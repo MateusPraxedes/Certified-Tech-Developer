@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+
+body {
+
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    grid-template-areas:
+        'main-header    main-header'
+        'main-aside     main-content'
+        'main-footer    main-footer'
+    ;
+    
+}
+
+header  {
+
+   
+    background-color: #000000;
+    grid-area: main-header;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
+.main-header h1{
+    
+    
+    color: white;
+    margin: 0 auto;
+    
+
+}
+
+.main-menu {
+
+    color: white;
+    font-size: 22px;
+    padding: 8px;
+ 
+    align-items: center;
+    gap: 24px;
+    list-style: none;
+    
+}
+
+
+
+.main-header button {
+
+    color: #fff;
+    height: fit-content;
+    background-color: transparent;
+    font-size: 18px;
+    margin: 8px;
+    padding: 12px 24px;
+    border: 1px solid #fff;
+    border-radius: 32px;
+    opacity: .6;
+    transition: .2s ease-in-out;
+   
+}
+
+.main-header button:hover {
+
+    opacity: 1;
+    
+}
+
+aside {
+
+    color: #fff;
+    background-color: #363636;
+    grid-area: main-aside;
+
+}
+
+.side-menu {
+
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 76px;
+    padding: 24;
+    text-align: center;
+    
+}
+
+.side-menu li {
+
+    margin-bottom: 42px;
+    opacity: .4;
+    
+}
+
+.side-menu li:hover {
+
+    opacity: 1;
+    
+}
+
+main {
+
+    padding: 12px;
+    background-color: #4e4e4e;
+    grid-area: main-content;
+        
+}
+
+
+.media-picture{
+  
+    width: 100%;
+    height: 400px;
+    background-image: url('https://wallpaperaccess.com/full/125819.jpg');
+    background-size: cover;
+    background-position: top;
+  }
+
+main h1 {
+
+    color: #fff;
+    
+}
+
+
+
+footer {
+
+    background-color: #000000;
+    grid-area: main-footer;
+    padding: 24px;
+  
+    
+}
+
