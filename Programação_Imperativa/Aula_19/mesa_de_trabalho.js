@@ -77,14 +77,6 @@ console.log(maiorMenorPessoa(arquivos))
 
 
 
-function alturaMulheres(listaPessoas) {
-
-  let result = listaPessoas.filter(index => index.sexo === 'F');
-  let soma = result.reduce((acum, elemento) => acum + elemento.altura);
-  let media = soma / soma.length;
-  return media;
-}
-
 
 
 let mediaAlturaMulheres = (listaPessoas) => {
