@@ -13,4 +13,4 @@ git log // background      /// tecla q para sair do log
 git checkout (codigo do log)
 git checkout master // voltar para historico completo
 
-
+git config --global --unset (user.name) // redefinir
