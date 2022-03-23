@@ -35,7 +35,8 @@ form.addEventListener('submit', function(e){
    if(caractersEspeciais(ValidacaoTrim)){
    alert('Não é permitido o uso de caracteres especiais em sua lista.')
    }else{
-   li.innerText = ValidacaoTrim;}
+    li.innerText = ValidacaoTrim;
+}
   })
 
   let btn = document.querySelector('.c-form__botao')
@@ -47,7 +48,8 @@ form.addEventListener('submit', function(e){
     else if(caractersEspeciais(campo.value)){
         console.log('Não é permitido o uso de caracteres especiais em sua lista.')
     }
-
+    else if(!caractersEspeciais(campo.value) && campo.value !== '' ){
+        btn.disabled = false;}
 })
 
 
@@ -57,4 +59,10 @@ function caractersEspeciais(v){
     return validacão;
 }
 
+// Habilitar o button quando houver algum caracter no campo
+
+campo.addEventListener('change', function(e){
+    if(!caractersEspeciais(campo.value) && campo.value !== '')
+       btn.disabled = true;
+    })
 
