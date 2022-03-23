@@ -54,7 +54,7 @@ form.addEventListener('submit', function(e){
 
 
 function caractersEspeciais(v){
-    let regexp = /W/g;
+    let regexp = /[$*&@#]/g;
     let validacão = regexp.test(v);
     return validacão;
 }
