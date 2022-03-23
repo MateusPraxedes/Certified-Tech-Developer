@@ -59,10 +59,5 @@ function caractersEspeciais(v){
     return validacão;
 }
 
-// Habilitar o button quando houver algum caracter no campo
 
-campo.addEventListener('change', function(e){
-    if(!caractersEspeciais(campo.value) && campo.value !== '')
-       btn.disabled = true;
-    })
 
