@@ -30,10 +30,10 @@ let  objetoLiteral = {
     MetodoData: data = () => {
         let date = new Date()
         let dia  = date.getDate();
-        var mes = date.getMonth();
-        var ano = date.getFullYear();  
-        var hora = date.getHours(); 
-        var min = date.getMinutes() ; 
+        let mes = date.getMonth();
+        let ano = date.getFullYear();  
+        let hora = date.getHours(); 
+        let min = date.getMinutes() ; 
          
 
         return `${dia}/${++mes}/${ano},  ${hora}h:${min}min`;
@@ -43,8 +43,6 @@ let  objetoLiteral = {
 
 objetoLiteral.data = objetoLiteral.MetodoData()
 
-
-// console.log(data)
 
 let json = JSON.stringify(objetoLiteral); 
 
