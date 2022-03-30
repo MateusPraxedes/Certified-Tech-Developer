@@ -34,29 +34,15 @@
 */
 let form = document.forms['formulario'];
 let campo = document.querySelector('.c-form__campo');
-let btn = document.querySelector('.c-form__botao');
+// let btn = document.querySelector('.c-form__botao');
 let texto = document.querySelector('.texto');
 
-let nome;
 // btn.disabled = false;
-let test 
 
 form.addEventListener('submit', function(e){
-//   e.preventDefault();
-  nome = campo.value;
-//   texto.innerText += ` ${ consulta.get('nome')}`
-  
-})
+  e.preventDefault();
+  usuario = campo.value;
+  location.href = `http://127.0.0.1:5503/14/mesa-de-trabalho/resultado/?nome=${usuario}`
 
-test = consulta.get('nome')
-
-let rota = "\resultado?nome="
-location.href += rota
-
-test = consulta.get('nome')
-
-
-texto.innerText += test;
-
-
+  })
 
