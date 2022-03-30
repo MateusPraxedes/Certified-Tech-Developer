@@ -56,11 +56,20 @@ let consulta = new URLSearchParams(parametros);
 
 consulta.has('nome')
 
+
 if (consulta.has('nome')) {
-
     let nome = consulta.get('nome');
-
     texto.innerText += ` ${nome}`
+    localStorage.setItem('nome', nome)
+
+} else {
+    getStorage()
 }
 
 
+
+function getStorage() {
+    if (localStorage.length > 0) {
+        texto.innerText += ` ${localStorage.getItem('nome')}`
+    }
+}
