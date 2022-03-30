@@ -34,15 +34,33 @@
 */
 let form = document.forms['formulario'];
 let campo = document.querySelector('.c-form__campo');
-// let btn = document.querySelector('.c-form__botao');
+let btn = document.querySelector('.c-form__botao');
 let texto = document.querySelector('.texto');
 
-// btn.disabled = false;
 
-form.addEventListener('submit', function(e){
-  e.preventDefault();
-  usuario = campo.value;
-  location.href = `http://127.0.0.1:5503/14/mesa-de-trabalho/resultado/?nome=${usuario}`
 
-  })
+if (form) {
+    btn.disabled = false;
+    form.addEventListener('submit', function (e) {
+        e.preventDefault();
+        usuario = campo.value;
+        location.href = `http://127.0.0.1:5503/14/mesa-de-trabalho/resultado/?nome=${usuario}`
+
+    })
+}
+
+
+let parametros = location.search;
+
+let consulta = new URLSearchParams(parametros);
+
+consulta.has('nome')
+
+if (consulta.has('nome')) {
+
+    let nome = consulta.get('nome');
+
+    texto.innerText += ` ${nome}`
+}
+
 
