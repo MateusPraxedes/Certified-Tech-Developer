@@ -1,0 +1,132 @@
+{
+	"info": {
+		"_postman_id": "c6c5cef6-2942-48e8-8b82-3f32b3652f45",
+		"name": "Aula 17",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Lista de Tarefas",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://ctd-todo-api.herokuapp.com/#/tasks/getTasks",
+					"protocol": "https",
+					"host": [
+						"ctd-todo-api",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						""
+					],
+					"hash": "/tasks/getTasks"
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Criar uma nova tarefa",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"description\": \"Aprender Javascript\",\r\n  \"completed\": false\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://ctd-todo-api.herokuapp.com/v1/tasks ",
+					"protocol": "https",
+					"host": [
+						"ctd-todo-api",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"v1",
+						"tasks "
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "obter determinada tarefa",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://ctd-todo-api.herokuapp.com/v1/tasks{1}",
+					"protocol": "https",
+					"host": [
+						"ctd-todo-api",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"v1",
+						"tasks{1}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Atualizar uma tarefa existente",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"description\": \"Aprender Javascript\",\r\n  \"completed\": false\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://ctd-todo-api.herokuapp.com/v1/tasks{1}",
+					"protocol": "https",
+					"host": [
+						"ctd-todo-api",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"v1",
+						"tasks{1}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Deletar uma tarefa existente",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://ctd-todo-api.herokuapp.com/v1/tasks{1}",
+					"protocol": "https",
+					"host": [
+						"ctd-todo-api",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"v1",
+						"tasks{1}"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
