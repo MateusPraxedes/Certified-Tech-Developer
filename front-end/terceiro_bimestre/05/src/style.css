@@ -5,12 +5,15 @@
 }
 
 
-
+body{
+  color: white;
+  background-color: black;  
+}
 
 .titulo {
   text-align: center;
   font-size: 2rem;
-  margin: 1rem;
+  margin: 1rem 0;
 }
 
 .produtos{
@@ -18,9 +21,26 @@
   justify-content: center;
 }
 
-.produto{
-  margin: 0 auto;
+.produtos ul{
+  list-style: none;
 }
+
+.produtos li{
+  margin: 1rem;
+}
+
+
+.produto{
+  justify-content: center;
+  margin: 0 auto;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+
+.produto h3{
+  text-align: center;
+}
+
 
 
 
