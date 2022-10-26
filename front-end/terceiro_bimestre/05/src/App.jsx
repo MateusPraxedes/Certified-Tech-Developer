@@ -1,3 +1,5 @@
+import styles from "/src/style.css";
+
 const produtos = [
   {
     nome: "Macbook Air 13 Chip M1 256gb",
@@ -23,6 +25,21 @@ const produtos = [
 
 function App() {
   return (
+    <>
+      <h1 className="titulo" >Produtos</h1>
+      <div className="produtos">
+      <ul>
+      {produtos.map((produto) => (
+     <li className="produto" key={produto.nome}>
+       <h2>{produto.nome}</h2>
+       <img  className = "imagem" src={produto.image} />
+       <h3>{produto.preco}</h3>
+     </li>
+      ))}
+      </ul>
+      </div>
+    </>
+    
     // <div>
     //   <h1>Produtos</h1>
 
@@ -46,19 +63,6 @@ function App() {
     //     </li>
     //   </ul>
     // </div>
-    <>
-      <h1>Produtos</h1>
-      <ul>
-      {produtos.map((produto) => (
-     <li key={produto.nome}>
-       <h2>{produto.nome}</h2>
-       <img src={produto.image} />
-       <h3>{produto.preco}</h3>
-     </li>
-      ))}
-      </ul>
-    </>
-
   );
 }
 
