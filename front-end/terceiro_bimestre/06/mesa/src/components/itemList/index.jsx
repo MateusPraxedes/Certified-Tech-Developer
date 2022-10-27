@@ -5,7 +5,7 @@ const ItemList = ({ item }) => {
   const { id, country, city, population, color } = item;
   if (country === "BRA") {
     return (
-      <li key={id} style={{ color: color }}>
+      <li style={{ color: color }}>
         <h1>{country}</h1>
         <h2>{city}</h2>
         <span>{population}</span>
