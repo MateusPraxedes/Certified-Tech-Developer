@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 5.0.1 (Python 3.9.7 on win32)" generated="20220705 12:31:11.671" rpa="false" schemaversion="3">
+<suite id="s1" name="Aula07" source="C:\Users\User\Desktop\CTD\Testing_I\robot\aula07.robot">
+<test id="s1-t1" name="Título" line="8">
+<kw name="abrir o site Sauce demo" library="aula07">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${SITE}</arg>
+<arg>${NAVEGADOR}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20220705 12:31:12.174" level="INFO">Opening browser 'Chrome' to base url 'https://www.saucedemo.com'.</msg>
+<status status="PASS" starttime="20220705 12:31:12.174" endtime="20220705 12:31:14.694"/>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20220705 12:31:14.695" endtime="20220705 12:31:14.835"/>
+</kw>
+<status status="PASS" starttime="20220705 12:31:12.173" endtime="20220705 12:31:14.835"/>
+</kw>
+<kw name="Fazer login" library="aula07">
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>${CAMPO_USARIO}</arg>
+<arg>${USARIO}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20220705 12:31:14.839" level="INFO">Typing text 'standard_user' into text field 'user-name'.</msg>
+<status status="PASS" starttime="20220705 12:31:14.839" endtime="20220705 12:31:15.065"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>${CAMPO_SENHA}</arg>
+<arg>${SENHA}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20220705 12:31:15.067" level="INFO">Typing text 'secret_sauce' into text field 'password'.</msg>
+<status status="PASS" starttime="20220705 12:31:15.066" endtime="20220705 12:31:15.257"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${BOTAO_LOGIN}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220705 12:31:15.258" level="INFO">Clicking element 'login-button'.</msg>
+<status status="PASS" starttime="20220705 12:31:15.258" endtime="20220705 12:31:15.465"/>
+</kw>
+<status status="PASS" starttime="20220705 12:31:14.839" endtime="20220705 12:31:15.465"/>
+</kw>
+<status status="PASS" starttime="20220705 12:31:12.172" endtime="20220705 12:31:15.467"/>
+</test>
+<status status="PASS" starttime="20220705 12:31:11.675" endtime="20220705 12:31:15.469"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Aula07">Aula07</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

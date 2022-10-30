@@ -1,0 +1,14 @@
+https://www.selenium.dev/selenium-ide/
+https://chromedriver.chromium.org/downloads
+
+
+Passo a Passo Selenium:
+
+1. Baixar Chromedriver
+2. Criar uma pasta no C:
+3. Colocar o chromedriver.exe dentro desta pasta
+4. Abrir as variáveis de ambiente (pesquisar no windows)
+5. Clicar em Edit em PATH e criar um novo com o caminho onde está o Chromedriver
+6. Abrir o Intellij
+7. Criar um novo projeto Java Maven
+8. No POM.xml colar o código das dependencias
