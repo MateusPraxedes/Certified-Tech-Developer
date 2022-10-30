@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d0454f1c-ab5c-4db5-be1c-5ddbb216d525" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../Aula01/Aula01.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula01/aula01/aula01.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula01/mesa_de_trabalho/mesaDeTrabalho/mesaDeTrabalho.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula02_Template_Method_Pattern/Aula02.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula02_Template_Method_Pattern/Aula02/Aula02.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula03_Chain_of_Responsibility_Pattern/Aula03_Chain_of_Responsibility_Pattern.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula03_Chain_of_Responsibility_Pattern/Mesa_de_Trabalho/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula03_Chain_of_Responsibility_Pattern/Mesa_de_Trabalho/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula03_Chain_of_Responsibility_Pattern/Mesa_de_Trabalho/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula03_Chain_of_Responsibility_Pattern/Mesa_de_Trabalho/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula03_Chain_of_Responsibility_Pattern/Mesa_de_Trabalho/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula03_Chain_of_Responsibility_Pattern/Mesa_de_Trabalho/Mesa_de_Trabalho.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula03_Chain_of_Responsibility_Pattern/Mesa_de_Trabalho/out/production/Mesa_de_Trabalho/MesaDeTrabalho/Artigo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula03_Chain_of_Responsibility_Pattern/Mesa_de_Trabalho/out/production/Mesa_de_Trabalho/MesaDeTrabalho/CheckQuality.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula03_Chain_of_Responsibility_Pattern/Mesa_de_Trabalho/out/production/Mesa_de_Trabalho/MesaDeTrabalho/ControleDeQualidade.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula03_Chain_of_Responsibility_Pattern/Mesa_de_Trabalho/out/production/Mesa_de_Trabalho/MesaDeTrabalho/Embalagem.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula03_Chain_of_Responsibility_Pattern/Mesa_de_Trabalho/out/production/Mesa_de_Trabalho/MesaDeTrabalho/Lote.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula03_Chain_of_Responsibility_Pattern/Mesa_de_Trabalho/out/production/Mesa_de_Trabalho/MesaDeTrabalho/Peso.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula03_Chain_of_Responsibility_Pattern/Mesa_de_Trabalho/out/production/Mesa_de_Trabalho/MesaDeTrabalho/ProcessaArtigo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula03_Chain_of_Responsibility_Pattern/Mesa_de_Trabalho/src/MesaDeTrabalho/Artigo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula03_Chain_of_Responsibility_Pattern/Mesa_de_Trabalho/src/MesaDeTrabalho/CheckQuality.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula03_Chain_of_Responsibility_Pattern/Mesa_de_Trabalho/src/MesaDeTrabalho/ControleDeQualidade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula03_Chain_of_Responsibility_Pattern/Mesa_de_Trabalho/src/MesaDeTrabalho/Embalagem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula03_Chain_of_Responsibility_Pattern/Mesa_de_Trabalho/src/MesaDeTrabalho/Lote.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula03_Chain_of_Responsibility_Pattern/Mesa_de_Trabalho/src/MesaDeTrabalho/Peso.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula03_Chain_of_Responsibility_Pattern/Mesa_de_Trabalho/src/MesaDeTrabalho/ProcessaArtigo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula03_Chain_of_Responsibility_Pattern/aula03/aula03.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula03_Chain_of_Responsibility_Pattern/aula03/src/aula03/CheckMail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula03_Chain_of_Responsibility_Pattern/aula03/src/aula03/Gerenciador.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula03_Chain_of_Responsibility_Pattern/aula03/src/aula03/GerenciadorComercial.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula03_Chain_of_Responsibility_Pattern/aula03/src/aula03/GerenciadorGerencia.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula03_Chain_of_Responsibility_Pattern/aula03/src/aula03/GerenciadorSpan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula03_Chain_of_Responsibility_Pattern/aula03/src/aula03/GerenciadorTecnico.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula03_Chain_of_Responsibility_Pattern/aula03/src/aula03/Mail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula03_Chain_of_Responsibility_Pattern/aula03/src/aula03/ProcessaMail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula04_Proxy_Pattern/Aula_integradora/Aula_integradora/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula04_Proxy_Pattern/Aula_integradora/Aula_integradora/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula04_Proxy_Pattern/Aula_integradora/Aula_integradora/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula04_Proxy_Pattern/Aula_integradora/Aula_integradora/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula04_Proxy_Pattern/Aula_integradora/Aula_integradora/Aula_integradora.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula04_Proxy_Pattern/Aula_integradora/Aula_integradora/src/MesaDeTrabalho/Cliente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula04_Proxy_Pattern/Aula_integradora/Aula_integradora/src/MesaDeTrabalho/ISerie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula04_Proxy_Pattern/Aula_integradora/Aula_integradora/src/MesaDeTrabalho/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula04_Proxy_Pattern/Aula_integradora/Aula_integradora/src/MesaDeTrabalho/Serie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula04_Proxy_Pattern/Aula_integradora/Aula_integradora/src/MesaDeTrabalho/SerieNaoHabilitadaException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula04_Proxy_Pattern/Aula_integradora/Aula_integradora/src/MesaDeTrabalho/SerieProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula04_Proxy_Pattern/Exercicio_Guiado/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula04_Proxy_Pattern/Exercicio_Guiado/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula04_Proxy_Pattern/Exercicio_Guiado/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula04_Proxy_Pattern/Exercicio_Guiado/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula04_Proxy_Pattern/Exercicio_Guiado/Exercicio_Guiado.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula04_Proxy_Pattern/Exercicio_Guiado/src/ExercicioGuiado/Filme.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula04_Proxy_Pattern/Exercicio_Guiado/src/ExercicioGuiado/FilmeNaoHabilitadoException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula04_Proxy_Pattern/Exercicio_Guiado/src/ExercicioGuiado/GradeDeFilmes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula04_Proxy_Pattern/Exercicio_Guiado/src/ExercicioGuiado/GradeDeFilmesProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula04_Proxy_Pattern/Exercicio_Guiado/src/ExercicioGuiado/IGradeFilmes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula04_Proxy_Pattern/Exercicio_Guiado/src/ExercicioGuiado/Ip.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula04_Proxy_Pattern/Exercicio_Guiado/src/ExercicioGuiado/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula04_Proxy_Pattern/MesaDeTrabalho/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula04_Proxy_Pattern/MesaDeTrabalho/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula04_Proxy_Pattern/MesaDeTrabalho/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula04_Proxy_Pattern/MesaDeTrabalho/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula04_Proxy_Pattern/MesaDeTrabalho/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula04_Proxy_Pattern/MesaDeTrabalho/mesaDeTrabalho.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula04_Proxy_Pattern/MesaDeTrabalho/src/mesaDeTrabalho/Usuario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula04_Proxy_Pattern/MesaDeTrabalho/src/mesaDeTrabalho/servicoDownload.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula04_Proxy_Pattern/MesaDeTrabalho/src/mesaDeTrabalho/servicoDownloadProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula04_Proxy_Pattern/aula04/aula04.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula04_Proxy_Pattern/aula04/src/aula04/Pessoa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula04_Proxy_Pattern/aula04/src/aula04/PessoaTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula04_Proxy_Pattern/aula04/src/aula04/ServicoVacinar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula04_Proxy_Pattern/aula04/src/aula04/ServicoVacinarProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula04_Proxy_Pattern/aula04/src/aula04/Vacinar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula05_Flyweight_Pattern/MesaDeTrabalho/MesaDeTrabalho.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula05_Flyweight_Pattern/MesaDeTrabalho/src/mesaDeTrabalho/Arvore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula05_Flyweight_Pattern/MesaDeTrabalho/src/mesaDeTrabalho/ArvoreFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula05_Flyweight_Pattern/MesaDeTrabalho/src/mesaDeTrabalho/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula05_Flyweight_Pattern/aula05/aula05.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula06_Facade_Pattern/MesaDeTrabalho/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula06_Facade_Pattern/MesaDeTrabalho/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula06_Facade_Pattern/MesaDeTrabalho/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula06_Facade_Pattern/MesaDeTrabalho/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula06_Facade_Pattern/MesaDeTrabalho/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula06_Facade_Pattern/MesaDeTrabalho/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula06_Facade_Pattern/MesaDeTrabalho/MesaDeTrabalho.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula06_Facade_Pattern/MesaDeTrabalho/out/production/MesaDeTrabalho/mesaDeTrabalho/ApiHotel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula06_Facade_Pattern/MesaDeTrabalho/out/production/MesaDeTrabalho/mesaDeTrabalho/ApiVoo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula06_Facade_Pattern/MesaDeTrabalho/out/production/MesaDeTrabalho/mesaDeTrabalho/FacadeTurismo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula06_Facade_Pattern/MesaDeTrabalho/out/production/MesaDeTrabalho/mesaDeTrabalho/IFacadeTurismo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula06_Facade_Pattern/MesaDeTrabalho/out/production/MesaDeTrabalho/mesaDeTrabalho/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula06_Facade_Pattern/MesaDeTrabalho/out/production/MesaDeTrabalho/mesaDeTrabalho/Viagem.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula06_Facade_Pattern/MesaDeTrabalho/src/mesaDeTrabalho/ApiHotel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula06_Facade_Pattern/MesaDeTrabalho/src/mesaDeTrabalho/ApiVoo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula06_Facade_Pattern/MesaDeTrabalho/src/mesaDeTrabalho/FacadeTurismo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula06_Facade_Pattern/MesaDeTrabalho/src/mesaDeTrabalho/IFacadeTurismo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula06_Facade_Pattern/MesaDeTrabalho/src/mesaDeTrabalho/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula06_Facade_Pattern/MesaDeTrabalho/src/mesaDeTrabalho/Viagem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula06_Facade_Pattern/aula06/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula06_Facade_Pattern/aula06/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula06_Facade_Pattern/aula06/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula06_Facade_Pattern/aula06/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula06_Facade_Pattern/aula06/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula06_Facade_Pattern/aula06/aula06.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula06_Facade_Pattern/aula06/lib/apiguardian-api-1.1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula06_Facade_Pattern/aula06/lib/junit-jupiter-5.8.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula06_Facade_Pattern/aula06/lib/junit-jupiter-api-5.8.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula06_Facade_Pattern/aula06/lib/junit-jupiter-engine-5.8.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula06_Facade_Pattern/aula06/lib/junit-jupiter-params-5.8.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula06_Facade_Pattern/aula06/lib/junit-platform-commons-1.8.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula06_Facade_Pattern/aula06/lib/junit-platform-engine-1.8.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula06_Facade_Pattern/aula06/lib/opentest4j-1.2.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula06_Facade_Pattern/aula06/out/production/aula06/aula06/ApiCartao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula06_Facade_Pattern/aula06/out/production/aula06/aula06/ApiProduto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula06_Facade_Pattern/aula06/out/production/aula06/aula06/ApiQuantidade.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula06_Facade_Pattern/aula06/out/production/aula06/aula06/Cartao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula06_Facade_Pattern/aula06/out/production/aula06/aula06/FacadeDesconto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula06_Facade_Pattern/aula06/out/production/aula06/aula06/FacadeDescontoTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula06_Facade_Pattern/aula06/out/production/aula06/aula06/IFacadeDesconto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula06_Facade_Pattern/aula06/out/production/aula06/aula06/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula06_Facade_Pattern/aula06/out/production/aula06/aula06/Produto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula06_Facade_Pattern/aula06/src/aula06/ApiCartao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula06_Facade_Pattern/aula06/src/aula06/ApiProduto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula06_Facade_Pattern/aula06/src/aula06/ApiQuantidade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula06_Facade_Pattern/aula06/src/aula06/Cartao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula06_Facade_Pattern/aula06/src/aula06/FacadeDesconto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula06_Facade_Pattern/aula06/src/aula06/FacadeDescontoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula06_Facade_Pattern/aula06/src/aula06/IFacadeDesconto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula06_Facade_Pattern/aula06/src/aula06/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula06_Facade_Pattern/aula06/src/aula06/Produto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula07_Integradora_III/Exercicio_Guiado/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula07_Integradora_III/Exercicio_Guiado/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula07_Integradora_III/Exercicio_Guiado/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula07_Integradora_III/Exercicio_Guiado/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula07_Integradora_III/Exercicio_Guiado/Exercicio_Guiado.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula07_Integradora_III/Exercicio_Guiado/lib/apiguardian-api-1.1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula07_Integradora_III/Exercicio_Guiado/lib/junit-jupiter-5.8.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula07_Integradora_III/Exercicio_Guiado/lib/junit-jupiter-api-5.8.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula07_Integradora_III/Exercicio_Guiado/lib/junit-jupiter-engine-5.8.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula07_Integradora_III/Exercicio_Guiado/lib/junit-jupiter-params-5.8.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula07_Integradora_III/Exercicio_Guiado/lib/junit-platform-commons-1.8.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula07_Integradora_III/Exercicio_Guiado/lib/junit-platform-engine-1.8.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula07_Integradora_III/Exercicio_Guiado/lib/opentest4j-1.2.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula07_Integradora_III/Exercicio_Guiado/out/production/Exercicio_Guiado/exercicio_guiado/FlyweightFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula07_Integradora_III/Exercicio_Guiado/out/production/Exercicio_Guiado/exercicio_guiado/FlyweightFactoryTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula07_Integradora_III/Exercicio_Guiado/out/production/Exercicio_Guiado/exercicio_guiado/Triangulo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula07_Integradora_III/Exercicio_Guiado/src/exercicio_guiado/FlyweightFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula07_Integradora_III/Exercicio_Guiado/src/exercicio_guiado/FlyweightFactoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula07_Integradora_III/Exercicio_Guiado/src/exercicio_guiado/Triangulo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula07_Integradora_III/mesaDeTrabalho/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula07_Integradora_III/mesaDeTrabalho/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula07_Integradora_III/mesaDeTrabalho/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula07_Integradora_III/mesaDeTrabalho/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula07_Integradora_III/mesaDeTrabalho/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula07_Integradora_III/mesaDeTrabalho/mesaDeTrabalho.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula07_Integradora_III/mesaDeTrabalho/src/mesaDeTrabalho/FlyweightFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula07_Integradora_III/mesaDeTrabalho/src/mesaDeTrabalho/FlyweightFactoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula07_Integradora_III/mesaDeTrabalho/src/mesaDeTrabalho/Roupa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula08_Logging(Trace e Debug)/aula08/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula08_Logging(Trace e Debug)/aula08/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula08_Logging(Trace e Debug)/aula08/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula08_Logging(Trace e Debug)/aula08/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula08_Logging(Trace e Debug)/aula08/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula08_Logging(Trace e Debug)/aula08/aula08.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula08_Logging(Trace e Debug)/aula08/src/Exercicio_Guiado/Leao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula08_Logging(Trace e Debug)/aula08/src/Exercicio_Guiado/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula08_Logging(Trace e Debug)/aula08/src/Exercicio_Guiado/Tigre.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula08_Logging(Trace e Debug)/mesaDeTrabalho/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula08_Logging(Trace e Debug)/mesaDeTrabalho/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula08_Logging(Trace e Debug)/mesaDeTrabalho/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula08_Logging(Trace e Debug)/mesaDeTrabalho/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula08_Logging(Trace e Debug)/mesaDeTrabalho/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula08_Logging(Trace e Debug)/mesaDeTrabalho/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula08_Logging(Trace e Debug)/mesaDeTrabalho/mesaDeTrabalho.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula08_Logging(Trace e Debug)/mesaDeTrabalho/out/production/mesaDeTrabalho/mesaDeTrabalho/Lista.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula08_Logging(Trace e Debug)/mesaDeTrabalho/out/production/mesaDeTrabalho/mesaDeTrabalho/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula08_Logging(Trace e Debug)/mesaDeTrabalho/src/mesaDeTrabalho/Lista.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula08_Logging(Trace e Debug)/mesaDeTrabalho/src/mesaDeTrabalho/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula09_Acesso_a_Banco_de_Dados/aula09/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula09_Acesso_a_Banco_de_Dados/aula09/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula09_Acesso_a_Banco_de_Dados/aula09/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula09_Acesso_a_Banco_de_Dados/aula09/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula09_Acesso_a_Banco_de_Dados/aula09/aula09.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula09_Acesso_a_Banco_de_Dados/aula09/src/exercioGuiado/AcessoAoBancoDeDados.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aula10_Integradora_IV.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exercicio_Guiado/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exercicio_Guiado/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exercicio_Guiado/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exercicio_Guiado/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exercicio_Guiado/Exercicio_Guiado.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exercicio_Guiado/src/exercicioGuiado/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MesaDeTrabalho.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Programação_Orientada_à_Objetos/aula15/aula15.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Programação_Orientada_à_Objetos/aula16/aula16.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Programação_Orientada_à_Objetos/aula19/aula19.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Programação_Orientada_à_Objetos/aula20/aula20.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Programação_Orientada_à_Objetos/aula22/aula22.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Programação_Orientada_à_Objetos/aula_02/aula2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Programação_Orientada_à_Objetos/aula_03/aula3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Programação_Orientada_à_Objetos/aula_05/aula5.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Programação_Orientada_à_Objetos/aula_14-exemploDeColecoes/aula_14_exemploDeColecoes.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Programação_Imperativa/Aula_21/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Programação_Imperativa/Aula_21/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../front-end/primeiro_bimestre/aula_05/iex.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../front-end/primeiro_bimestre/aula_05/iex.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../front-end/primeiro_bimestre/aula_08/style/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../../front-end/primeiro_bimestre/aula_08/style/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../front-end/segundo_bimestre/01/mesa-de-trabalho/assets/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../front-end/segundo_bimestre/01/mesa-de-trabalho/assets/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../front-end/segundo_bimestre/03/mesa-de-trabalho/assets/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../front-end/segundo_bimestre/03/mesa-de-trabalho/assets/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../front-end/segundo_bimestre/08/mesa-de-trabalho/assets/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../front-end/segundo_bimestre/08/mesa-de-trabalho/assets/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../front-end/segundo_bimestre/15/mesa-de-trabalho/assets/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../front-end/segundo_bimestre/15/mesa-de-trabalho/assets/js/main.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2DGxpuMwJHcXPtFuIW3JS6QIJbA" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d0454f1c-ab5c-4db5-be1c-5ddbb216d525" name="Changes" comment="" />
+      <created>1660339412239</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1660339412239</updated>
+    </task>
+    <servers />
+  </component>
+</project>
