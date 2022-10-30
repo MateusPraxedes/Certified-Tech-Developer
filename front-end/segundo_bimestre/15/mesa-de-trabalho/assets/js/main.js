@@ -14,6 +14,9 @@ function f() {
         li.innerText = tarefa.title;
         lista.appendChild(li);
       });
+    //   const t = tarefas.map(tarefa => tarefa.title
+    // );
+    // console.log(t)
     });
 }
 

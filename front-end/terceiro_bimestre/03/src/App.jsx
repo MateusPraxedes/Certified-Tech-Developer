@@ -1,13 +1,24 @@
-import "./styles.css";
+import React from 'react';
+import Header from './Header';
+import Home from './Home';
+import Produtos from './Produtos';
 
-function App() {
+const App = () => {
+  const { pathname } = window.location;
+
+  let Pagina;
+  if (pathname === '/produtos') {
+    Pagina = Produtos;
+  } else {
+    Pagina = Home;
+  }
+
   return (
-    <>
-      <h1>My app</h1>
-    </>
-  )
-}
+    <section>
+      <Header />
+      <Pagina />
+    </section>
+  );
+};
 
-
-export default App
-
+export default App;

@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="en" id="home">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+
+  <body>
+    
+    
+    <header>
+
+      <ul class="header-main">
+        <li>
+          <a href="http://">
+              <img src="data:image/png;base64,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" alt="">
+          </a>
+      </li>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#itens">Itens</a></li>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="">Login</a></li>
+        
+      </ul>
+      
+      
+
+    </header>
+
+
+    <main>
+
+        
+      <div class="banner"></div>
+      
+      <section class="dh">
+
+        <h1>DH Flix</h1>
+        <p>Confira a maior coletânea de filmes que Digital House tem a te oferecer.</p>
+        <button type="button" class="btn btn-success btn-banner">Explorar</button>
+
+        
+      </section>
+      
+    </main>
+    
+
+    <section class="row">
+
+      <h1 id="itens">Itens</h1>
+
+      <div class="col-6 col-md-4 movie">
+        
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROOc13uof5wVacThl5pizTGmrLzCWC6tvctw&usqp=CAU">
+
+        <main>
+
+            <h1>Joker</h1>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, facilis!</p>
+
+            <button>
+           
+              <a target="_blank" href="">Abrir</a>
+  
+            </button>
+
+        </main>
+        
+      </div>
+      <div class="col-6 col-md-4 movie">
+        
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROOc13uof5wVacThl5pizTGmrLzCWC6tvctw&usqp=CAU">
+
+        <main>
+
+          <h1>Joker</h1>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, facilis!</p>
+
+            <button>
+           
+              <a target="_blank" href="">Abrir</a>
+  
+            </button>
+
+        </main>
+        
+      </div>
+      
+      <div class="col-6 col-md-4 movie">
+        
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROOc13uof5wVacThl5pizTGmrLzCWC6tvctw&usqp=CAU">
+
+        <main>
+
+          <h1>Joker</h1>
+
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, facilis!</p>
+
+          <button>
+           
+            <a target="_blank" href="">Abrir</a>
+
+          </button>
+
+        </main>
+        
+      </div>
+      
+      <div class="col-6 col-md-4 movie">
+        
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROOc13uof5wVacThl5pizTGmrLzCWC6tvctw&usqp=CAU">
+
+        <main>
+
+          <h1>Joker</h1>
+
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, facilis!</p>
+          
+          <button>
+           
+            <a target="_blank" href="">Abrir</a>
+
+          </button>
+          
+
+        </main>
+        
+      </div>
+      <div class="col-6 col-md-4 movie">
+        
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROOc13uof5wVacThl5pizTGmrLzCWC6tvctw&usqp=CAU">
+
+        <main>
+
+          <h1>Joker</h1>
+
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, facilis!</p>
+
+          <button>
+           
+            <a target="_blank" href="">Abrir</a>
+
+          </button>
+
+        </main>
+        
+      </div>
+      <div class="col-6 col-md-4 movie">
+        
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROOc13uof5wVacThl5pizTGmrLzCWC6tvctw&usqp=CAU">
+
+        <main>
+
+          <h1>Joker</h1>
+
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, facilis!</p>
+
+          <button>
+           
+            <a target="_blank" href="">Abrir</a>
+
+          </button>
+
+        </main>
+        
+      </div>
+      
+    </section>
+
+
+    <footer id="sobre"></footer>
+      
+
+ 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+  
+  </body>
+</html>

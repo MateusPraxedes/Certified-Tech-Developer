@@ -50,7 +50,10 @@ body.addEventListener('keydown' , removerTelaInicial)
 
 function adicionarTelaInicial(e){
   if(e.code == 'Escape'){
-    document.body.appendChild(telainicial)}
+    document.body.appendChild(telainicial)
+    }
+    console.log(e)
+    
     
   }
   body.addEventListener('keydown' , adicionarTelaInicial)

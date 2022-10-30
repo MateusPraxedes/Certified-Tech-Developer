@@ -1,0 +1,152 @@
+
+
+html {
+
+  scroll-behavior: smooth;
+  
+}
+
+
+
+header{
+  background-color: #52524f4d;
+  width: 100%;
+  height: 40px;
+  display: flex;
+  position: fixed;
+  top: 0;
+
+}
+
+.header-main{
+
+  display: flex;
+  gap:50px;
+  list-style: none;
+
+  
+}
+ 
+.header-main a {
+
+  color: #edf5f3;
+  font-size: 18px;
+  text-decoration: none;
+  font-weight: bold;
+  line-height: 40px;
+  
+
+}
+
+.header-main li a:hover{
+
+  color: #E51B3E;
+}
+
+.header-main a img {
+
+  width: 30px;
+
+
+}
+
+
+.banner {
+
+  background-image: url('https://external-preview.redd.it/An0ibJEE6XhCcuj778sMEDDJPXC0wT7c6kFX8sLgL7Q.jpg?width=640&crop=smart&auto=webp&s=14edadacf1bbe152780009a8d92e11fe63d551a4');
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  /* filter: blur(1.2px); */
+  height: 100vh;
+
+
+}
+
+.dh {
+  
+  
+  position: relative;
+  width: 232px;
+  height: 84px;
+  left: 150px;
+  top: -150px;
+  /* top: 200px; */
+  text-align: center;
+}
+
+.dh h1{
+
+  color: red;
+}
+
+.dh p{
+
+  color: white;
+  width: 600px;
+  height: 28px;
+}
+
+.btn-banner{
+
+  color: #f7f1f1;
+  background-color: #207e1700;
+  margin: 0 auto;
+  text-align: center;
+
+}
+
+#itens {
+
+  text-align: center;
+}
+
+
+.row .movie{
+  
+  
+  margin-top: 20px;
+  border-radius: 12px;
+  margin-bottom: 32px;
+  text-align: center;
+  
+}
+
+
+
+.movie img{
+  
+  width: 100%;
+  height: 300px;
+  border-radius: 5px;
+
+
+}
+
+.movie main{
+
+ background-color:#F4F4F4;
+ border-radius: 12px;
+}
+
+.movie button{
+  width: 150px;
+  background-color:#33BB69 ;
+  border-radius: 12px;
+}
+
+.movie button a {
+  
+  color: white;
+  text-decoration: none;
+ 
+}
+
+
+footer{
+
+  background-color: #171717;
+  width: 100%;
+  height: 200px;
+
+}

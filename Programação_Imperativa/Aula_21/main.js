@@ -49,3 +49,6 @@ console.log(curso)
 
 console.log(curso.aprovado("moises bollela"));
 console.log(curso.listaAprovados());
+
+curso.listaAlunos[0].addFalta();
+console.log(curso)
