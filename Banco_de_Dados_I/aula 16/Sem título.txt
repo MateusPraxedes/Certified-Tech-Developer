@@ -1,0 +1,23 @@
+3
+
+SELECT p.ProdutoNome, a.Empresa, a.Contato, c.CategoriaNome
+	FROM Produtos as p
+    INNER JOIN Categorias as c
+    on p.CategoriaID = c.CategoriaID
+    LEFT JOIN Provedores as a
+    on p.ProvedorID = a.ProvedorID;
+1    
+SELECT p.ProdutoNome, a.Empresa, a.Contato, c.CategoriaNome
+	FROM Produtos as p
+    INNER JOIN Categorias as c
+    on p.CategoriaID = c.CategoriaID
+    LEFT JOIN Provedores as a
+    on p.ProvedorID = a.ProvedorID;
+
+2
+SELECT * FROM Clientes
+	WHERE ClienteID NOT IN 
+		(SELECT DISTINCT ClienteID FROM Faturas);
+		
+
+
