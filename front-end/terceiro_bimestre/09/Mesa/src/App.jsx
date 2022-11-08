@@ -2,13 +2,20 @@ import { useState } from 'react'
 import "./styles.css";
 
 function App() {
-  const[disciplina, setDisciplina] = useState('')
-  const [quantidadeAlunos, setQuantidadeAlunos] = useState(0)
+  let[disciplina, setDisciplina] = useState('')
+  let [quantidadeAlunos, setQuantidadeAlunos] = useState([{
+    database: 0,
+    frontend: 0,
+    backend: 0
+  }])
   const [notas, setNotas] = useState([{
     database: 0,
     frontend: 0,
     backend: 0
   }])
+  setQuantidadeAlunos(quantidadeAlunos.database =0)
+  setQuantidadeAlunos(quantidadeAlunos.database +=1)
+  console.log(quantidadeAlunos.database)
 
   function handleSubmit(event) {
     event.preventDefault();
@@ -51,7 +58,7 @@ function App() {
           <tbody>
             <tr>
               <td>Banco de Dados</td>
-              <td>0</td>
+              <td></td>
               <td>0</td>
             </tr>
 
