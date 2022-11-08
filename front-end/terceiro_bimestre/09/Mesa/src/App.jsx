@@ -44,7 +44,7 @@ const App = () => {
       alert("erro 2");
     } else {
       setErrorFormData({});
-      alert("funcionou");
+      alert("Funcionou!");
 
       if ((formData.disciplina = "database")) {
         setFormData({
