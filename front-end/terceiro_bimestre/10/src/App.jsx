@@ -79,7 +79,7 @@ const App = () => {
       />
       </div>
 
-      <input type="submit" />
+      <input className='btnForm' value='Criar' type="submit" />
       </form>
       </fieldset>
 
