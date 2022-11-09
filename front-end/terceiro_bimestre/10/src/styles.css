@@ -13,13 +13,16 @@ body {
 }
 
 fieldset{
- width: 700px;
- height: 290px;
-  margin: 0 auto;
+ width: 800px;
+ height: 318px;
+ margin: 0 auto;
  padding: 2rem ;
  margin-top: 1rem;
- border: 2px solid #6c2676ed;
+ border: 4px solid #6c2676ed;
+ border-radius: 30px;
+/* box-shadow: 0 0 10px #666; */
  background-color: #202020;
+
 }
 
 h1{
@@ -30,7 +33,7 @@ h1{
 }
 
 form{
-  width: 600px;
+  width: 700px;
   height: 100px;
   background-color: #202020;
   display: flex;
@@ -39,10 +42,11 @@ form{
 }
 
 input{
-  width: 208px;
-  height: 30px;
+  width: 216px;
+  height: 36px;
   margin-top: 1rem;
-  border: 2px solid #6c2676ed;
+  border: 4px solid #6c2676ed;
+  border-radius: 10px;
   background-color: #202020;
   color: white;
   font-size: 20px;
@@ -63,9 +67,12 @@ input{
   flex-direction: row;
   gap: 6px;
 }
-.card{
-  width: 300px;
-  height: 300px;
+
+.cards{
+
+  display: flex;
+  flex-direction: row;
+  gap: 2rem ;
   
 }
 

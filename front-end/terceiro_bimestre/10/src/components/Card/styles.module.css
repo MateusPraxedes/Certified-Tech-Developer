@@ -6,7 +6,7 @@
 
 .card{
   width: 300px;
-  height: 300px;
+  height: 200px;
   border-radius: 10px;
   margin: 0 auto;
   margin: 50px;
@@ -16,9 +16,10 @@
 .modulosCard{
   display: flex;
   flex-direction: row;
-  margin: 0 auto;
   justify-content: center;
-  margin: 100px;
+  gap: 10px;
+  margin: 50px;
+
 }
 
 .modulosCard p{

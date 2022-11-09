@@ -4,17 +4,24 @@ import "./styles.css"
 
 
 const App = () => {
+  
   const [cartao, setCartao] = useState({nome: '', numero: '', validade: '', cod: '', cor: ''})
   const [cartoes, setCartoes] = useState([])
-  const [error, setError] = useState(false)
+  const [error, setError] = useState({
+    errorNome: "",
+    errorNumero: "",
+    errorValidade: "",
+    errorCod: "",
+    errorCor: ""
+  })
   
-
   const handleChange = (e) => {
     e.preventDefault()
+    if(error.errorNome){
+      alert("Nome deve ter no mínimo 3 caracteres")
+    }else{
     setCartoes([...cartoes, cartao])
-    setCartao({nome: '', numero: '', validade: '', cod: '', cor: ''})
-
-
+    setCartao({nome: '', numero: '', validade: '', cod: '', cor: ''})}
   }
 
   return (
@@ -29,7 +36,12 @@ const App = () => {
         id="nome"
         value={cartao.nome}
         placeholder='Nome do Titular'
-        onChange={(event) => setCartao({...cartao, nome: event.target.value})}
+        onBlur={(event) => {
+          if(event.target.value.length < 3){
+            setError({...error, errorNome: 'Nome deve ter no mínimo 3 caracteres'})
+          alert('Nome deve ter no mínimo 3 caracteres')
+        }}}
+        onChange={(event) =>setCartao({...cartao, nome: event.target.value})}
       />
       </div>
       <div className='input'>
@@ -70,11 +82,10 @@ const App = () => {
       <input type="submit" />
       </form>
       </fieldset>
-      
 
-      {cartoes.map((cartao, index) => (
-        <Card key={index} cartao={cartao}/>
-      ))}
+      <div className='cards'>
+      <Card cartao={cartao}/>
+       </div>
 
 
     </>
