@@ -27,7 +27,7 @@ const App = () => {
       );
     } else if (error.errorNumero) {
       alert(
-        "O campo numero do cartão deve ter no mínimo 6 caracteres e um digito"
+        "O campo numero do cartão deve ter no mínimo 6 caracteres e um número."
       );
     } else {
       setCartoes([...cartoes, cartao]);
@@ -60,6 +60,8 @@ const App = () => {
                     alert(
                       "O campo nome deve ter no mínimo 3 caracteres e não pode ter espaços em branco no início"
                     );
+                  } else {
+                    setError({ ...error, errorNome: "" });
                   }
                 }}
                 onChange={(event) =>
@@ -81,11 +83,16 @@ const App = () => {
                     setError({
                       ...error,
                       errorNumero:
-                        "O numero do cartão deve ter no mínimo 6 caracteres e um digito",
+                        "O numero do cartão deve ter no mínimo 6 caracteres e um número.",
                     });
                     alert(
-                      "O campo numero do cartão deve ter no mínimo 6 caracteres e um digito"
+                      "O campo numero do cartão deve ter no mínimo 6 caracteres e um número."
                     );
+                  } else {
+                    setError({
+                      ...error,
+                      errorNumero: "",
+                    });
                   }
                 }}
                 onChange={(event) =>
