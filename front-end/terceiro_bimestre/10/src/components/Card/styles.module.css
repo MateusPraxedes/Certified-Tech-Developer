@@ -1,0 +1,27 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.card{
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
+  margin: 0 auto;
+  margin: 50px;
+  background: red;
+}
+
+.modulosCard{
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  justify-content: center;
+  margin: 100px;
+}
+
+.modulosCard p{
+  color: #fff;
+}
+
