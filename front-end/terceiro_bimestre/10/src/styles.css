@@ -80,3 +80,10 @@ input{
   background-color: #6c2676ed;
 }
 
+.error{
+  color: #ff0000;
+  margin-top: 50px;
+  text-align: center;
+  
+}
+
