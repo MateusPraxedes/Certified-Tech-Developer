@@ -19,6 +19,48 @@ const App = () => {
     errorCor: "",
   });
 
+  const validate = (event, nome) => {
+    if(nome === "numero") {
+    if (
+      event.target.value.length < 6 ||
+      !/\d{1}/.test(event.target.value)
+    ) {
+      setError({
+        ...error,
+        errorNumero:
+          "O numero do cartão deve ter no mínimo 6 caracteres um número.",
+      });
+      alert(
+        "O campo numero do cartão deve ter no mínimo 6 caracteres e um número."
+      );
+    } else {
+      setError({
+        ...error,
+        errorNumero: "",
+      });
+    }
+  } else if(nome === "nome") {
+    if (
+      event.target.value.length < 3 ||
+      event.target.value.trim() === ""
+    ) {
+      setError({
+        ...error,
+        errorNome:
+          "O campo nome deve ter no mínimo 3 caracteres e não pode ter espaços em branco no início",
+      });
+      alert(
+        "O campo nome deve ter no mínimo 3 caracteres e não pode ter espaços em branco no início"
+      );
+    } else {
+      setError({
+        ...error,
+        errorNome: "",
+      });
+    }
+  }
+}
+
   const handleChange = (e) => {
     e.preventDefault();
     if (error.errorNome) {
@@ -39,6 +81,7 @@ const App = () => {
     <>
       <fieldset>
         <h1>Criar Cartão</h1>
+      
         <form onSubmit={handleChange}>
           <div className="modulosForm">
             <div className="input">
@@ -48,21 +91,7 @@ const App = () => {
                 value={cartao.nome}
                 placeholder="Nome do Titular"
                 onBlur={(event) => {
-                  if (
-                    event.target.value.length < 3 ||
-                    event.target.value.trim() === ""
-                  ) {
-                    setError({
-                      ...error,
-                      errorNome:
-                        "O campo nome deve ter no mínimo 3 caracteres e não pode ter espaços em branco no início",
-                    });
-                    alert(
-                      "O campo nome deve ter no mínimo 3 caracteres e não pode ter espaços em branco no início"
-                    );
-                  } else {
-                    setError({ ...error, errorNome: "" });
-                  }
+                  validate(event, event.target.id)
                 }}
                 onChange={(event) =>
                   setCartao({ ...cartao, nome: event.target.value })
@@ -76,26 +105,9 @@ const App = () => {
                 value={cartao.numero}
                 placeholder="Número do cartão"
                 onBlur={(event) => {
-                  if (
-                    event.target.value.length < 6 ||
-                    !/\d{1}/.test(event.target.value)
-                  ) {
-                    setError({
-                      ...error,
-                      errorNumero:
-                        "O numero do cartão deve ter no mínimo 6 caracteres e um número.",
-                    });
-                    alert(
-                      "O campo numero do cartão deve ter no mínimo 6 caracteres e um número."
-                    );
-                  } else {
-                    setError({
-                      ...error,
-                      errorNumero: "",
-                    });
-                  }
+                  validate(event, event.target.id)
                 }}
-                onChange={(event) =>
+                onChange={(event) => 
                   setCartao({ ...cartao, numero: event.target.value })
                 }
               />
@@ -135,6 +147,9 @@ const App = () => {
           <input className="btnForm" value="Criar" type="submit" />
         </form>
       </fieldset>
+
+      { <div className="error"><span>{error.errorNome}</span></div>}
+      { <div className="error"><span>{error.errorNumero}</span></div>}
 
       <div className="cards">
         {cartoes.map((cartao, index) => (
