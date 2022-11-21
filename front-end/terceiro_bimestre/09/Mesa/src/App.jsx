@@ -81,7 +81,7 @@ const App = () => {
               setFormData({ ...formData, disciplina: event.target.value })
             }
           >
-            <option selected disabled value="" hidden>
+            <option  disabled value="" hidden>
               Selecione uma disciplina
             </option>
             <option value="database">Banco de Dados</option>
@@ -113,8 +113,8 @@ const App = () => {
           <tbody>
             <tr>
               <td>Banco de Dados</td>
-              <td>{formData.disciplina}</td>
-              {formData.bancoDeDados.notas / formData.bancoDeDados.alunos ===
+              <td>{formData.bancoDeDados.alunos}</td>
+              {formData.bancoDeDados.notas / formData.bancoDeDados.alunos !==
               NaN ? (
                 <td>
                   {formData.bancoDeDados.notas / formData.bancoDeDados.alunos}
