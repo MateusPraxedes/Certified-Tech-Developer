@@ -1,8 +1,9 @@
-
-const index = () => {
+const Contact = () => {
   return (
-    <h1>Hello contact</h1>
-  )
-}
+    <div>
+      <h1>Hello Contact Page</h1>
+    </div>
+  );
+};
 
-export default index
+export default Contact;

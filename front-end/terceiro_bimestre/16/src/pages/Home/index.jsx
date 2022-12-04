@@ -1,23 +1,26 @@
-import { Link, useNavigate } from "react-router-dom"
-
-
+import { useState } from "react";
+import { Link, useNavigate } from "react-router-dom";
 
 const Home = () => {
+  const navigate = useNavigate();
 
-  const navigate = useNavigate()
+  const [nome, setNome] = useState("");
 
-  const handleNavigate = () => {
-    navigate('/contact')}
+  function handleNavigate() {
+    navigate("/contact");
+  }
 
   return (
-    <>
-    <h1>Home</h1>
-    <Link to="/contact">Contact</Link>
+    <div>
+      <h1>Hello Home Page</h1>
+      <Link to="/contact">Ir para Contact</Link>
+      <Link to={`/details/10`}>Ir para Details</Link>
 
-    <button onClick={handleNavigate}>Ir para contact</button>
+      <input onChange={(e) => setNome(e.target.value)} />
 
-    </>
-  )
-}
+      <button onClick={handleNavigate}>ir para pagina de contato</button>
+    </div>
+  );
+};
 
-export default Home
+export default Home;
